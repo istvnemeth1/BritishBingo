@@ -1,0 +1,61 @@
+main>.container>.top {
+    margin-top: 10%;
+}
+
+.bignum>p {
+    /* border: 1px black solid; */
+    font-family: 'Handlee', cursive;
+    font-size: 15em;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.lotnum {
+    /* border: 1px black solid; */
+    line-height: 1.35rem;
+}
+
+.lotnum > .col > p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.pastnum span {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(177, 115, 0) !important;
+    border: 5px rgb(145, 65, 0) solid;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 110px;
+}
+
+.pastnum {
+    /* border: 1px black solid; */
+    margin-left: 10%;
+    height: 113px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.fade-in-top {
+    animation: fade-in-left 2s ease infinite;
+    animation-iteration-count: 1;
+  }
+  @keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

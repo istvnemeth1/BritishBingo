@@ -1,0 +1,47 @@
+#tform {
+    display: block;
+    margin-top: 25px;
+}
+
+.form-group {
+    margin: 25px 0;
+}
+
+button {
+    margin-bottom: 25px;
+}
+
+#printable {
+    display: none;
+}
+
+.container {
+    width: 500px;
+}
+
+tprint header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+tprint table {
+    margin-top: 5px;
+}
+
+tprint tbody {
+    border-width: 5px;
+    border-color: darkgrey;
+}
+
+tprint tr {
+    border-color: darkslategrey;
+}
+
+tprint td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17.5px;
+    height: 45px;
+    width: 11.111%;
+}
